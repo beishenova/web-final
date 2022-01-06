@@ -1,6 +1,6 @@
 import { css } from "@emotion/core";
-import HeroNav from "./HeroNav/HeroNav";
 import Output from "../Output/Output";
+import HeroNav from "./Navbar/HeroNav";
 
 const Hero = () => {
   return (

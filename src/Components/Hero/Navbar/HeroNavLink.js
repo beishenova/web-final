@@ -1,6 +1,6 @@
 import { css } from "@emotion/core";
 import { useContext } from "react";
-import { MovieContext } from "../../contexts/MovieContext";
+import { MovieContext } from "../../../contexts/MovieContext";
 
 
 const HeroNavLink = ({ btnText }) => {

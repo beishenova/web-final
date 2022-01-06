@@ -1,7 +1,7 @@
 import { css} from "@emotion/core";
 import { useContext } from "react";
-import Container from "../../Components/Container";
-import { MovieContext } from "../../contexts/MovieContext";
+import Container from "../../Container";
+import { MovieContext } from "../../../contexts/MovieContext";
 import HeroNavLogo from "./HeroNavLogo";
 import HeroNavMenu from "./HeroNavMenu";
 import HeroNavSearch from "./HeroNavSearch";
