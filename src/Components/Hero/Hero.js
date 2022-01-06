@@ -1,4 +1,6 @@
-import { css } from "@emotion/core";
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { css, jsx } from "@emotion/core";
 import Output from "../Output/Output";
 import HeroNav from "./Navbar/HeroNav";
 

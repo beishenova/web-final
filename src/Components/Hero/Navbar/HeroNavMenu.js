@@ -1,4 +1,6 @@
-import { css} from "@emotion/core";
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { css, jsx } from "@emotion/core";
 import { useContext } from "react";
 import { MovieContext } from "../../../contexts/MovieContext";
 import HeroNavLink from "./HeroNavLink";

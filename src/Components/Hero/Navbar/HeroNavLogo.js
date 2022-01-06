@@ -1,4 +1,6 @@
-import { css} from "@emotion/core";
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { css, jsx } from "@emotion/core";
 
 const HeroNavLogo = () => <h2 css={styles}>Movies</h2>;
 

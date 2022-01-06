@@ -1,10 +1,12 @@
-import { css } from "@emotion/core";
+/** @jsxRuntime classic */
+/** @jsx jsx */
+import { css, jsx } from "@emotion/core";
 import React, { useContext } from "react";
 import { MovieContext } from "../../contexts/MovieContext";
 import Container from "../Container";
 import Movies from "../Movies/Movies";
 import MoviesPagination from "../Movies/MoviesPagination";
-import Popular from '../Popular'
+import Popular from '../Popular/Popular'
 
 const Output = () => {
   const { activeLink } = useContext(MovieContext);
