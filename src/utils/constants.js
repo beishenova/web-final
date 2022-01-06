@@ -1,0 +1,1 @@
+export const CATEGORIES = "api/json/v1/1/categories.php"
