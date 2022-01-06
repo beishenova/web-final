@@ -2,6 +2,7 @@ import { css } from "@emotion/core";
 import Output from "../Output/Output";
 import HeroNav from "./Navbar/HeroNav";
 
+
 const Hero = () => {
   return (
     <section css={styles} className="hero">

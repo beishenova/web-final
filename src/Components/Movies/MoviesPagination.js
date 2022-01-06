@@ -1,4 +1,4 @@
-import { css, jsx } from "@emotion/core";
+import { css} from "@emotion/core";
 import React, { useContext } from "react";
 import { MovieContext } from "../../contexts/MovieContext";
 import Container from '../Container'
